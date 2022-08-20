@@ -10,11 +10,11 @@
 
 `pip install kubernetes`
 
-### Listing Volune Attachments in your cluster using python
+### Listing Volume Attachments in your cluster using python
 
-For Volune Attachments, we use StorageV1Api class from client module.
+For Volume Attachments, we use StorageV1Api class from client module.
 
-For listing Volune Attachments on local cluster e.g minikube we use the following command:
+For listing Volume Attachments on local cluster e.g minikube we use the following command:
 
 `config.load_kube_config()`
 
@@ -24,7 +24,7 @@ For listing Volune Attachments on local cluster e.g minikube we use the followin
 
 We will use here the Bearer Token which enable requests to authenticate using an access key.
 
-In get_va.py file we have to provide our cluster details for listing Volune Attachments:
+In get_va.py file we have to provide our cluster details for listing Volume Attachments:
 
 
 Give your cluster details:
@@ -40,4 +40,4 @@ cluster_details={
 python3 get_va.py
 ```
 
-You will get the list of Volune Attachments inside your cluster.
+You will get the list of Volume Attachments inside your cluster.
